@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta name="viewport" content="width=devide-width">
+    <title>Contato - Vegan Makeup</title>
+    <link href="reset.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  
+  </head>
+  <body>
+    <header>
+      <h1><img src="imagens/logocontato.png" class="logocontato" alt="Logo da Loja Vegan Makeup"></h1>
+      <nav>
+        <ul>
+          <li><a href="https://veganmakeup.aliciacosta1.repl.co/" target="_blank">HOME</a></li>
+          <li> <a href="https://veganmakeup.aliciacosta1.repl.co/#sobre" target="_blank">SOBRE</a></li>
+          <li> <a href="https://storeveganmakeup.aliciacosta1.repl.co/index.html" target="_blank">LOJA</a></li>
+          <li><a href="https://contatoveganmakeup.aliciacosta1.repl.co/">CONTATO</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <form>
+      
+        <label for="nomesobrenome">Nome e sobrenome:</label>
+        <input type="text" id="nomesobrenome" class="input-padrao">
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" class="input-padrao" requerid placeholder="(XX) XXXXX-XXXX">
+        
+        <label for="mensagem">Mensagem:</label>
+        <textarea cols="70" rows="8" id="mensagem" class="input-padrao"></textarea>
+
+        <div>
+          <p class="contato">Como prefere nosso contato?</p>
+          <label for="radio-wpp"> <input type="radio" id="radio-wpp" name="contato" checked>WhatsApp</label>
+          
+          <label for="radio-telefone"><input type="radio" id="radio-telefone" name="contato">Telefone</label>
+          
+          <label for="radio-email"><input type="radio" id="radio-email" name="contato">E-mail</label>
+          
+        </div>
+        <div>
+          <p class="horario">Qual horário prefere ser atendide?</p>
+          <select>
+            <option>Manhã</option>
+            <option>Tarde</option>
+            <option>Noite</option>
+          </select>
+          
+          <label class="checkbox"> <input type="checkbox" checked>Gostaria de recer as novidades por e-mail?</label>
+
+          <input type="submit" value="Enviar formulário" class="enviar">
+        </div>
+      </form>
+
+      <table>
+        <thead>
+            <tr>
+                <th>Dias</th>
+                <th>Horário</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Seg a Sáb</td>
+                <td>9h ~ 21h</td>
+            </tr>
+            <tr>
+                <td>Dom e Feriados</td>
+                <td>9h ~ 14h</td>
+            </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <footer>
+      <img src="imagens/logocontato.png" class="logocopy" alt="Logo da Loja Vegan Makeup">
+      <p class="copyright">&copy;Copyright Vegan Makeup - 2020</p>
+    </footer>
+
+  </body>
+</html>
